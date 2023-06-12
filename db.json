@@ -4,7 +4,7 @@
       "id": 1,
       "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
       "descricao": "3 mil visualizações",
-      "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+      "url": "https://www.youtube.com/embed/KfCNyIrqjsg",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
@@ -25,14 +25,14 @@
       "id": 4,
       "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
       "descricao": "2,5 mil visualizações",
-      "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
+      "url": "https://www.youtube.com/embed/5b9Z8toVaAU?list=PLh2Y_pKOa4Udq6kx9Y_jFbLG9tpYrIKJ5",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 5,
       "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
       "descricao": "1,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
+      "url": "https://www.youtube.com/embed/JlANCmlV7qA?list=PL7h1S1pOf5-sM8AWm78_ZbWAKTDBYNpGj",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
@@ -46,7 +46,7 @@
       "id": 7,
       "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
       "descricao": "3,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/Nts3P35mHzE",
+      "url": "https://www.youtube.com/embed/AGJVs6wjf5Q",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
@@ -83,6 +83,13 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "titulo": "Faculdade de JOGOS DIGITAIS: o que estuda e como é o curso? Vale a pena?",
+      "descricao": "2 mil visualizações",
+      "url": "https://www.youtube.com/embed/RXrj9XC7U_w",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 13
     }
   ]
 }
