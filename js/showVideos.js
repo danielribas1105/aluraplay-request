@@ -2,7 +2,7 @@ import { connectAPI } from "./connectAPI.js";
 
 const list = document.querySelector("[data-list]");
 
-function generateCard (titulo, descricao, url, imagem) {
+export default function generateCard (titulo, descricao, url, imagem) {
     const video = document.createElement("li");
     video.className = "videos__item";
     video.innerHTML = `
@@ -21,12 +21,16 @@ function generateCard (titulo, descricao, url, imagem) {
 }
 
 async function listVideos () {
-    const listApi = await connectAPI.connectingAPI();
-    listApi.forEach(element => {
-        list.appendChild(
-            generateCard(element.titulo, element.descricao, element.url, element.imagem)
-        );
-    });
+    try {
+        const listApi = await connectAPI.connectingAPI();
+        listApi.forEach(element => {
+            list.appendChild(
+                generateCard(element.titulo, element.descricao, element.url, element.imagem)
+            );
+        });
+    } catch {
+        list.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a API!</h2>`
+    }
 }
 
 listVideos();
